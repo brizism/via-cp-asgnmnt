@@ -1,0 +1,20 @@
+// Colors 
+$light-grey: #EDF3F4;
+$medium-grey: #646f79;
+$black: #161d28;
+$blue: #37BBE9;
+$dark-grey: #222a36;
+$blue-black: #161d28;
+
+// Mixins
+@mixin link-box-style {
+  width: 100%;
+  padding: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  transition: box-shadow .3s;
+  color: $black;
+}
+
+// Breakpoints
+$bp-small: 30em; // 480px

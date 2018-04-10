@@ -1,0 +1,46 @@
+.header {
+  height: 60.5rem;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to bottom, #1fb7e9 0%, #FFF 75%);
+  overflow: hidden;
+  top: 0;
+
+  @media screen and (max-width: $bp-small){
+    height: 34.5rem;
+  }
+
+  &__nav {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+
+    ul {
+      display: flex;
+      width: 60%;
+      justify-content: space-between;
+      position: absolute;
+      right: 2rem;
+      font-size: 1.6rem;
+      color: white;
+    }
+  }
+
+  &__image {
+    min-width: 130%;
+    position: relative;
+    margin-top: 3rem;
+
+    @media screen and (max-width: $bp-small){
+      min-width: 200%;
+    }
+
+    img {
+      left: -28rem;
+      position: absolute;
+    }
+  }
+}

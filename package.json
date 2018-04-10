@@ -1,0 +1,16 @@
+{
+  "name": "via-cp-asgnmnt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass scss/main.scss css/styles.css -w --source-map true --output-style compressed",
+    "start": "browser-sync -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "node-sass": "^4.8.3"
+  }
+}

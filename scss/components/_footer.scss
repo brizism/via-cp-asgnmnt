@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  background: $dark-grey;
+  display: flex;
+  height: 10rem;
+  justify-content: space-around;
+  align-items: center;
+
+  @media screen and (max-width: $bp-small){
+    height: 20rem;
+    flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  &__links {
+    display: flex;
+    width: 22%;
+    justify-content: space-around;
+    font-size: 1.2rem;
+
+    @media screen and (max-width: $bp-small){
+      width: 60%;
+    }
+  }
+
+  &__social-links {
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+
+    @media screen and (max-width: $bp-small){
+      width: 30%;
+    }
+
+    a {
+      font-size: 2rem;
+    }
+  }
+
+  &__download {
+    a {
+      margin: 0 1rem;
+    }
+  }
+}

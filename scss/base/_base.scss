@@ -1,0 +1,62 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus {
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-family: $font-circular-book, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 62.5%;
+}
+
+body {
+ 
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+
+  @media screen and (max-width: $bp-small){
+    font-size: 3rem;
+  }
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  color: $medium-grey;
+  letter-spacing: .3px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p::selection {
+  
+}
+
+h1::selection {
+  
+}
+
+span::selection {
+  
+}
